@@ -57,3 +57,5 @@ fi
 echo "ro.octavi.device=$OCTAVI_DEVICE"
 
 echo "# end build properties"
+
+VEN_INFO=vendor/octavi/build/tools/buildinfo.sh && test -f $VEN_INFO && source $VEN_INFO
